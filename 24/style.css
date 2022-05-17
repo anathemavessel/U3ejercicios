@@ -1,0 +1,31 @@
+.grid {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    border-style: solid;
+}
+
+.grid div {
+    width: 20px;
+    height: 20px;
+}
+
+.snake {
+    background-image: url(https://thumbs.dreamstime.com/b/snake-skin-seamless-pattern-illustration-snake-skin-seamless-pattern-vector-illustration-eps-fashionable-animal-print-exotic-145112045.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 20px;
+}
+
+.apple {
+    background-image: url(https://www.pinclipart.com/picdir/big/390-3906062_apple-icon-apple-icon-cartoon-png-clipart.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 15px;
+}
+body {
+    font-family: 'Bebas Neue', cursive;
+    display: grid;
+    justify-content: center;
+}

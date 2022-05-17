@@ -1,0 +1,49 @@
+.grid {
+	width: 300px;
+	height: 300px;
+	border: solid black 1px;
+	display: flex;
+	flex-wrap: wrap;
+	background-image: url(https://static8.depositphotos.com/1302980/798/v/600/depositphotos_7983765-stock-illustration-moon-surface.jpg);
+	background-position: center;
+	background-size: 300px;
+	background-repeat: no-repeat;
+}
+
+.grid div {
+	width: 20px;
+	height: 20px;
+}
+
+.invader {
+	background-image: url(https://www.pngfind.com/pngs/b/57-578462_space-invaders-alien-png-photo-space-invaders-alien.png);
+	background-position: center;
+	background-size: 20px;
+	background-repeat: no-repeat;
+}
+
+.shooter {
+	background-image: url(https://cdn-icons-png.flaticon.com/512/706/706026.png);
+	background-position: center;
+	background-size: 20px;
+	background-repeat: no-repeat;
+}
+
+.laser {
+	background-image: url(https://pixelartmaker-data-78746291193.nyc3.digitaloceanspaces.com/image/ca563561dfb9fa0.png);
+	background-position: center;
+	background-size: 20px;
+	background-repeat: no-repeat;
+}
+
+.boom {
+	background-image: url(https://images.emojiterra.com/google/android-11/512px/1f4a5.png);
+	background-position: center;
+	background-size: 20px;
+	background-repeat: no-repeat;
+}
+body {
+    font-family: 'Bebas Neue', cursive;
+    display: grid;
+    justify-content: center;
+}

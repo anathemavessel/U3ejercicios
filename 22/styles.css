@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+.grid {
+	width: 606px;
+	height: 606px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.square {
+	height: 200px;
+	width: 200px;
+	border: solid black 1px;
+	background-color: #fff;
+}
+
+.mole {
+	background-image: url("topo.jpg");
+	background-size: cover;
+}
+body,h2 {
+	font-family: 'Bebas Neue', cursive;
+	background-color: #8186a3;
+	display: grid;
+	justify-content: center;
+}
+
+

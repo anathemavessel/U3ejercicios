@@ -1,0 +1,10 @@
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 720px;
+    height: 540px;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
