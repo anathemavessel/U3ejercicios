@@ -1,0 +1,30 @@
+body{
+  display: flex;
+  justify-content: center;
+
+}
+
+.grid {
+  width: 400px;
+  height: 600px;
+  background-image: url('background.jpg');
+  position: relative;
+  font-size: 100px;
+  text-align: center;
+}
+
+.doodler {
+  width: 77px;
+  height: 150px;
+  background-image: url('1651298276711.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+}
+
+.platform {
+  width: 88px;
+  height: 20px;
+  background-image: url('platform.png');
+  position: absolute;
+}
